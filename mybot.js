@@ -42,6 +42,10 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
   }
+  if (message.content.toLowerCase().startsWith("RoleTest")) {
+    if(message.member.roles.find("name", "Admin") || message.member.roles.find("name", "Mod")){
+      message.channel.send("<:MarioHead:481325741150175232>");
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
