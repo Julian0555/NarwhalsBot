@@ -32,6 +32,9 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("narbottest")) {
   	message.channel.send("Hey this bot works");
   }
+  if (message.content.toLowerCase().startsWith("<@490579899518550016> say")) {
+    message.channel.sendMessage(message.content.replace('<@490579899518550016> say ',''));
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
