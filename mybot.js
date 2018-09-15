@@ -44,9 +44,9 @@ client.on("message", (message) => {
   }
   if (message.content.toLowerCase().startsWith("RoleTest")) {
     if(message.member.roles.has(360923714059108353)) {
-      return message.reply("Sorry, you don't have permissions to use this!");
-    
-    message.reply(You indeed have the Admin role);
+      message.reply(You indeed have the Admin role);
+	else
+      message.reply(You don't have the Admin role);
   }
 });
 
