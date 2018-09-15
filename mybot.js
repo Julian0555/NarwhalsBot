@@ -51,9 +51,9 @@ client.on("message", (message) => {
 //        message.channel.send("<:MarioHead:481325741150175232> 2");		  
 //      }
 //  }
-  if (message.content.toLowerCase().startsWith("testing2")) {
+  if (message.content.toLowerCase().startsWith("roletest")) {
     if(message.member.roles.has("360923714059108353")){ // Check if member has role
-	    message.channel.send("Hi"); // Send "Hi" if he does
+	    message.channel.send("You have the admin role."); // Send "Hi" if he does
     }
   }
 });
