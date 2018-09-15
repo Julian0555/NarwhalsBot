@@ -12,7 +12,7 @@ client.on("message", (message) => {
   if (message.author.bot) return;
   if (message.content.toLowerCase().startsWith("<@490579899518550016> help")) {
   //if (message.content.toLowerCase("s!test")) {
-    message.channel.send({embed: {
+    message.author.send({embed: {
     title: "Bot Commands:",
 	color: 0x00FF01,
     url: "https://i.imgur.com/X3Isprt.png",
@@ -42,19 +42,9 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
   }
-//  if (message.content.toLowerCase().startsWith("narbottest2")) {
-//      let allowedRole = message.guild.roles.find("name", "Admin");
-//      if (message.member.roles.has(allowedRole.id) {
-//        message.channel.send("<:MarioHead:481325741150175232>");		  
-//      } 
-//	  else {
-//        message.channel.send("<:MarioHead:481325741150175232> 2");		  
-//      }
-//  }
-  if (message.content.toLowerCase().startsWith("roletest")) {
+  if (message.content.toLowerCase().startsWith("roletestadmin")) {
     if(message.member.roles.has("360923714059108353")){ // Check if member has role
 	    message.channel.send("You have the admin role."); // Send "Hi" if he does
-		message.author.send("Your message here.");
     } else {
 	    message.channel.send("You don't the admin role."); // Send "Hi" if he does
 	}
