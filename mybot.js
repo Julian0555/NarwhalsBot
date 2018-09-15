@@ -42,8 +42,6 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
   }
-It's been two days since you've posted this, so I'm not sure if you've received your answer or not -- either way, something like this would work (I think):
-
   if (message.content.toLowerCase().startsWith("narbottest2")) {
       let allowedRole = message.guild.roles.find("name", "Admin");
       if (message.member.roles.has(allowedRole.id) {
