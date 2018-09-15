@@ -53,9 +53,7 @@ client.on("message", (message) => {
 	}
   }
   if (message.content.toLowerCase().startsWith("ImageTest")) {
-    message.channel.send("Test", {
-      file: "https://i.imgur.com/X3Isprt.png" // Or replace with FileOptions object
-    }
+    message.channel.send(file: "https://i.imgur.com/X3Isprt.png");
   }
 });
 
