@@ -12,9 +12,9 @@ client.on("message", (message) => {
   if (message.author.bot) return;
   if (message.content.toLowerCase().startsWith("<@490579899518550016> help")) {
     if(message.guild === null){
-	    message.channel.send("You have the admin role."); // Send "Hi" if he does
+	    message.channel.send("Here you go:"); // Send "Hi" if he does
     } else {
-	    message.channel.send("You don't the admin role."); // Send "Hi" if he does
+	    message.channel.send("Check your messages."); // Send "Hi" if he does
 	}	
     message.author.send({embed: {
     title: "Bot Commands:",
