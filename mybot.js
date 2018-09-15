@@ -46,7 +46,8 @@ client.on("message", (message) => {
       let allowedRole = message.guild.roles.find("name", "Admin");
       if (message.member.roles.has(allowedRole.id) {
         message.channel.send("<:MarioHead:481325741150175232>");		  
-      } else {
+      } 
+	  else {
         message.channel.send("<:MarioHead:481325741150175232> 2");		  
       }
   }
