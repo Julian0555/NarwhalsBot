@@ -39,6 +39,9 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("<@490579899518550016> say")) {
     message.channel.sendMessage(message.content.replace('<@490579899518550016> say ',''));
   }
+  if (message.content.toLowerCase().startsWith("pee in stored in the balls")) {
+    message.channel.send("<:MarioHead:481325741150175232>");
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
