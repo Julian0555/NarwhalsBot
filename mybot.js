@@ -52,8 +52,8 @@ client.on("message", (message) => {
 	    message.channel.send("You don't the admin role."); // Send "Hi" if he does
 	}
   }
-  if (message.content.toLowerCase().startsWith("ImageTest")) {
-    message.channel.send(file: "https://i.imgur.com/X3Isprt.png");
+  if (message.content.toLowerCase().startsWith("imagetest")) {
+    message.channel.send("Image Test", {files: ["https://i.imgur.com/X3Isprt.png"]});
   }
 });
 
