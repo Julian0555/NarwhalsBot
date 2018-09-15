@@ -53,7 +53,7 @@ client.on("message", (message) => {
 	}
   }
   if (message.content.toLowerCase().startsWith("imagetest")) {
-    message.channel.send({files: ["https://i.imgur.com/X3Isprt.png"]});
+    message.channel.send({files: ["https://cdn.discordapp.com/attachments/338443917500481547/415251275245027329/84db14c8d24045d09c211cc5ae6997697238fbcb_hq.gif"]});
   }
 });
 
