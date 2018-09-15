@@ -39,8 +39,14 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("<@490579899518550016> say")) {
     message.channel.sendMessage(message.content.replace('<@490579899518550016> say ',''));
   }
-  if (message.content.toLowerCase().startsWith("pee in stored in the balls")) {
+  if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
+  }
+  if (message.content.toLowerCase().startsWith("RoleTest")) {
+    if(!message.member.roles.some(r=>["Captain Narwhals", "Admins"].includes(r.name)) )
+      return message.reply("Sorry, you don't have permissions to use this!");
+    
+    message.reply(You indeed have the Admin role);
   }
 });
 
