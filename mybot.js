@@ -22,9 +22,13 @@ client.on("message", (message) => {
       text: "Wooooo!"
 	}, 
     fields: [
+	  {
+        "name": "@NarbotWooooo say 'Your Message'",
+        "value": "Will say whatever you want."
+      },
       {
         "name": "narbottest",
-        "value": "Just a test command"
+        "value": "Just a test command."
       }
     ]
 	}});
