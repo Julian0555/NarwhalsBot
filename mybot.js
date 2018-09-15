@@ -42,15 +42,15 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
   }
-  if (message.content.toLowerCase().startsWith("narbottest2")) {
-      let allowedRole = message.guild.roles.find("name", "Admin");
-      if (message.member.roles.has(allowedRole.id) {
-        message.channel.send("<:MarioHead:481325741150175232>");		  
-      } 
-	  else {
-        message.channel.send("<:MarioHead:481325741150175232> 2");		  
-      }
-  }
+//  if (message.content.toLowerCase().startsWith("narbottest2")) {
+//      let allowedRole = message.guild.roles.find("name", "Admin");
+//      if (message.member.roles.has(allowedRole.id) {
+//        message.channel.send("<:MarioHead:481325741150175232>");		  
+//      } 
+//	  else {
+//        message.channel.send("<:MarioHead:481325741150175232> 2");		  
+//      }
+//  }
 });
 
 client.login(process.env.BOT_TOKEN);
