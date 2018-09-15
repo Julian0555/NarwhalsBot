@@ -15,10 +15,10 @@ client.on("message", (message) => {
     message.channel.send({embed: {
     title: "Bot Commands:",
 	color: 0x00FF01,
-    url: "https://thumbs.gfycat.com/NaughtyMarvelousJoey-small.gif",
+    url: "https://i.imgur.com/X3Isprt.png",
 	description: " ",
     footer: {
-      icon_url: "https://thumbs.gfycat.com/NaughtyMarvelousJoey-small.gif",
+      icon_url: "https://i.imgur.com/X3Isprt.png",
       text: "Wooooo!"
 	}, 
     fields: [
