@@ -3,9 +3,8 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log("Initiation Complete");
-    client.user.setStatus('dnd');  
-    client.user.setStatus('online');  
-	client.user.setActivity('Fortnite', { type: 'PLAYING' })
+    client.user.setStatus('dnd');   
+	client.user.setActivity('with my nipples', { type: 'PLAYING' })
 });
 
 client.on("message", (message) => {
