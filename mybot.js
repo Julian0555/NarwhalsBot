@@ -54,6 +54,7 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("roletest")) {
     if(message.member.roles.has("360923714059108353")){ // Check if member has role
 	    message.channel.send("You have the admin role."); // Send "Hi" if he does
+		message.author.send("Your message here.");
     } else {
 	    message.channel.send("You don't the admin role."); // Send "Hi" if he does
 	}
