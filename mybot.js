@@ -11,7 +11,11 @@ client.on('ready', () => {
 client.on("message", (message) => {
   if (message.author.bot) return;
   if (message.content.toLowerCase().startsWith("<@490579899518550016> help")) {
-	message.channel.send("Check your direct messages.");
+	if(message.channel.type == dm){
+		message.channel.send("Here you go:");		
+	} else {
+		message.channel.send("Check your direct messages.");
+	}
     message.author.send({embed: {
     title: "Bot Commands:",
 	color: 0x00FF01,
