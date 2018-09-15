@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log("Initiation Complete");
-//    client.user.setStatus('dnd');  
+    client.user.setStatus('dnd');  
     client.user.setStatus('online');  
 	client.user.setActivity('Fortnite', { type: 'PLAYING' })
 });
@@ -14,17 +14,17 @@ client.on("message", (message) => {
   //if (message.content.toLowerCase("s!test")) {
     message.channel.send({embed: {
     title: "Bot Commands:",
-	color: 0xA591FF,
-    url: "https://i.imgur.com/RKmAaby.gif",
+	color: 0x00FF01,
+    url: "https://cdn.dribbble.com/users/722563/screenshots/2966091/narwhal_dribbble.gif",
 	description: " ",
     footer: {
-      icon_url: "https://i.imgur.com/RKmAaby.gif",
-      text: "Rosie (BOT) by Julian0555"
+      icon_url: "https://cdn.dribbble.com/users/722563/screenshots/2966091/narwhal_dribbble.gif",
+      text: "Wooooo!"
 	}, 
     fields: [
       {
-        "name": "@Rosie Emotes",
-        "value": "Will show a list of emoticons that the bot can react with."
+        "name": "narbottest",
+        "value": "Just a test command"
       }
     ]
 	}});
