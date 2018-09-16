@@ -72,7 +72,7 @@ client.on("message", (message) => {
 	    message.channel.send("<:MarioHead:481325741150175232> You appear to have no rank. "); // Send "Hi" if he does
 	}
   }
-  if (message.content.toLowerCase().startsWith("Isabelle")) {
+  if (message.content.toLowerCase().startsWith("isabelle")) {
 	message.channel.send("<a:isabelledance:490662425163464704>"); // Send "Hi" if he does
   }
 });
