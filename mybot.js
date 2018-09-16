@@ -62,7 +62,7 @@ client.on("message", (message) => {
 	    message.channel.send("You have the Active Members role."); // Send "Hi" if he does
     } else if(message.member.roles.has("360910525758177280")){
 	    message.channel.send("You have the Members role."); // Send "Hi" if he does
-    } else if{
+    } else{
 	    message.channel.send("<:MarioHead:481325741150175232> You appear to have no rank. "); // Send "Hi" if he does
 	}
   }
