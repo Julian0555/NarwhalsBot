@@ -29,21 +29,27 @@ client.on("message", (message) => {
         "name": "@NarbotWooooo say 'Your Message'",
         "value": "Will say whatever you want."
       },
+	  {
+        "name": "@NarbotWooooo rank",
+        "value": "Will say whatever you want."
+      },
+	  {
+        "name": "@NarbotWooooo say 'Your Message'",
+        "value": "Will say whatever you want."
+      },
+	  {
+        "name": "@NarbotWooooo say 'Your Message'",
+        "value": "Will say whatever you want."
+      },
       {
-        "name": "narbottest",
-        "value": "Just a test command."
+        "name": "Isabelle",
+        "value": "<a:isabelledance:490662425163464704>"
       }
     ]
 	}});
   }
-  if (message.content.toLowerCase().startsWith("narbottest")) {
-  	message.channel.send("Hey this bot works");
-  }
   if (message.content.toLowerCase().startsWith("<@490579899518550016> say")) {
     message.channel.sendMessage(message.content.replace('<@490579899518550016> say ',''));
-  }
-  if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
-    message.channel.send("<:MarioHead:481325741150175232>");
   }
   if (message.content.toLowerCase().startsWith("<@490579899518550016> rank")) {
     if(message.member.roles.has("360910172970811400")){ // Check if member has role
@@ -67,7 +73,7 @@ client.on("message", (message) => {
 	}
   }
   if (message.content.toLowerCase().startsWith("Isabelle")) {
-    message.channel.send({files: ["https://cdn.discordapp.com/attachments/338443917500481547/415251275245027329/84db14c8d24045d09c211cc5ae6997697238fbcb_hq.gif"]});
+	message.channel.send("<a:isabelledance:490662425163464704>"); // Send "Hi" if he does
   }
 });
 
