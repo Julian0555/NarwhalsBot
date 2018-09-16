@@ -45,7 +45,7 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
   }
-  if (message.content.toLowerCase().startsWith("roletestadmin")) {
+  if (message.content.toLowerCase().startsWith("<@490579899518550016> rank")) {
     if(message.member.roles.has("360910172970811400")){ // Check if member has role
 	    message.channel.send("You have the Captain Narwhals role."); // Send "Hi" if he does
     } else if(message.member.roles.has("360923714059108353")){
