@@ -52,9 +52,6 @@ client.on("message", (message) => {
     if(message.member.roles.has("360910172970811400")){ // Check if member has role
 	    message.channel.send("You have the Captain Narwhals role."); // Send "Hi" if he does
 	}
-    if(message.member.roles.has("360923714059108353")){ // Check if member has role
-	    message.channel.send("You have the admin role."); // Send "Hi" if he does
-	}
   }
   if (message.content.toLowerCase().startsWith("Isabelle")) {
     message.channel.send({files: ["https://cdn.discordapp.com/attachments/338443917500481547/415251275245027329/84db14c8d24045d09c211cc5ae6997697238fbcb_hq.gif"]});
