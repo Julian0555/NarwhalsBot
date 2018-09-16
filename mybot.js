@@ -45,23 +45,6 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
   }
-Captain Narwhals         : 360910172970811400  #ff01    ME: true
-Admins                   : 360923714059108353  #ff1100  ME: true
-Mantaro                  : 437498410170318849  #0       ME: true
-YAGPDB.xyz               : 466529759443156992  #0       ME: true
-Artists                  : 455184504332615681  #e91e63  ME:false
-Pro-Roblox-Player        : 455192628938670081  #ff0004  ME:false
-Hardcore-Weebs           : 455192615936065538  #da004e  ME:false
-Active Members           : 409186805305311243  #f1c40f  ME:false
-Members                  : 360910525758177280  #1abc9c  ME:false
-lewd                     : 455430570818666496  #546e7a  ME:false
-Silence                  : 393319861461450754  #818689  ME:false
-Bots                     : 360915934841667586  #277ecd  ME: true
-Nightbot                 : 415273629031464971  #0       ME: true
-Dyno                     : 425322462251843594  #0       ME:false
-Rythm                    : 436753950038032384  #0       ME: true
-Zephyr                   : 466908828944826368  #0       ME:false
-@​everyone                : 360909589966749696  #0       ME:false
   if (message.content.toLowerCase().startsWith("roletestadmin")) {
     if(message.member.roles.has("360910172970811400")){ // Check if member has role
 	    message.channel.send("You have the Captain Narwhals role."); // Send "Hi" if he does
