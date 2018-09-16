@@ -45,14 +45,11 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("pee is stored in the balls")) {
     message.channel.send("<:MarioHead:481325741150175232>");
   }
-  if (message.content.toLowerCase().startsWith("isabelle")) {
-    message.channel.send("<a:isabelledance:490662425163464704>");
-  }
-  if (message.content.toLowerCase().startsWith("<@490579899518550016> Roles")) {
+  if (message.content.toLowerCase().startsWith("roletestadmin")) {
     if(message.member.roles.has("360923714059108353")){ // Check if member has role
 	    message.channel.send("You have the admin role."); // Send "Hi" if he does
-    } else if(message.member.roles.has("455184504332615681")){
-	    message.channel.send("You have the Artist role."); // Send "Hi" if he does
+    } else if(message.member.roles.has("360910525758177280")){
+	    message.channel.send("You don't the admin role."); // Send "Hi" if he does
 	}
   }
   if (message.content.toLowerCase().startsWith("Isabelle")) {
