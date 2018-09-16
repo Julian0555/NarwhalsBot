@@ -33,14 +33,6 @@ client.on("message", (message) => {
         "name": "@NarbotWooooo rank",
         "value": "Will say whatever you want."
       },
-	  {
-        "name": "@NarbotWooooo say 'Your Message'",
-        "value": "Will say whatever you want."
-      },
-	  {
-        "name": "@NarbotWooooo say 'Your Message'",
-        "value": "Will say whatever you want."
-      },
       {
         "name": "Isabelle",
         "value": "<a:isabelledance:490662425163464704>"
