@@ -17,7 +17,7 @@ client.on("message", (message) => {
 	}	
     message.author.send({embed: {
     title: "Bot Commands:",
-	color: 0x00FF01,
+    color: Math.floor(Math.random() * 16777214) + 1,  //random color between one and 16777214 (dec)
     url: "https://i.imgur.com/X3Isprt.png",
 	description: " ",
     footer: {
