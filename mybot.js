@@ -48,11 +48,12 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().startsWith("isabelle")) {
     message.channel.send("<a:isabelledance:490662425163464704>");
   }
-  if (message.content.toLowerCase().startsWith("roletestadmin")) {
+  if (message.content.toLowerCase().startsWith("<@490579899518550016> Roles")) {
+    if(message.member.roles.has("360910172970811400")){ // Check if member has role
+	    message.channel.send("You have the Captain Narwhals role."); // Send "Hi" if he does
+	}
     if(message.member.roles.has("360923714059108353")){ // Check if member has role
 	    message.channel.send("You have the admin role."); // Send "Hi" if he does
-    } else {
-	    message.channel.send("You don't the admin role."); // Send "Hi" if he does
 	}
   }
   if (message.content.toLowerCase().startsWith("Isabelle")) {
