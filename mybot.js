@@ -11,9 +11,9 @@ client.on("message", (message) => {
   if (message.author.bot) return;
   if (message.content.toLowerCase().startsWith("<@490579899518550016> help")) {
     if(message.guild === null){
-	    message.channel.send("Here you go:"); // Send "Hi" if he does
+	    message.channel.send("Here you go:"); 
     } else {
-	    message.channel.send("Check your messages."); // Send "Hi" if he does
+	    message.channel.send("Check your messages."); 
 	}	
     message.author.send({embed: {
     title: "Bot Commands:",
@@ -44,28 +44,20 @@ client.on("message", (message) => {
     message.channel.sendMessage(message.content.replace('<@490579899518550016> say ',''));
   }
   if (message.content.toLowerCase().startsWith("<@490579899518550016> rank")) {
-    if(message.member.roles.has("360910172970811400")){ // Check if member has role
-	    message.channel.send("You have the Captain Narwhals role."); // Send "Hi" if he does
+    if(message.member.roles.has("360910172970811400")){ 
+	    message.channel.send("You have the Captain/Admin role."); 
     } else if(message.member.roles.has("360923714059108353")){
-	    message.channel.send("You have the Admins role."); // Send "Hi" if he does
-    } else if(message.member.roles.has("455184504332615681")){
-	    message.channel.send("You have the Artists role."); // Send "Hi" if he does
-    } else if(message.member.roles.has("455192628938670081")){
-	    message.channel.send("You have the Pro-Roblox-Player role."); // Send "Hi" if he does
-    } else if(message.member.roles.has("455192615936065538")){
-	    message.channel.send("You have the Hardcore-Weebs role."); // Send "Hi" if he does
-    } else if(message.member.roles.has("455192628938670081")){
-	    message.channel.send("You have the Pro-Roblox-Player role."); // Send "Hi" if he does
-    } else if(message.member.roles.has("409186805305311243")){
-	    message.channel.send("You have the Active Members role."); // Send "Hi" if he does
-    } else if(message.member.roles.has("360910525758177280")){
-	    message.channel.send("You have the Members role."); // Send "Hi" if he does
+	    message.channel.send("You have the Toad Brigade role. <:Toad:403007404285100042>"); 
+    } else if(message.member.roles.has("526293125879037952")){
+	    message.channel.send("You have the Toads role. <:ToadWhyDoIExist:526307441869062165>"); 
+    } else if(message.member.roles.has("526293174491021322")){
+	    message.channel.send("You have the Shy Guys role. <:shyguy:526317599949193216>"); 
     } else{
-	    message.channel.send("<:MarioHead:481325741150175232> You appear to have no rank. "); // Send "Hi" if he does
+	    message.channel.send("<:MarioHead:481325741150175232> You appear to have no rank. "); 
 	}
   }
   if (message.content.toLowerCase().startsWith("isabelle")) {
-	message.channel.send("<a:isabelledance:490662425163464704>"); // Send "Hi" if he does
+	message.channel.send("<a:isabelledance:490662425163464704>"); 
   }
 });
 
