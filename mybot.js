@@ -31,7 +31,7 @@ client.on("message", (message) => {
       },
 	  {
         "name": "@NarbotWooooo rank",
-        "value": "Will say whatever you want."
+        "value": "Will tell you your server rank."
       },
       {
         "name": "Isabelle",
@@ -45,7 +45,7 @@ client.on("message", (message) => {
   }
   if (message.content.toLowerCase().startsWith("<@490579899518550016> rank")) {
     if(message.member.roles.has("360910172970811400")){ 
-	    message.channel.send("You have the Captain/Admin role."); 
+	    message.channel.send("You have the Captain/Admin role. <a:Star64:526309623716642816>"); 
     } else if(message.member.roles.has("360923714059108353")){
 	    message.channel.send("You have the Toad Brigade role. <:Toad:403007404285100042>"); 
     } else if(message.member.roles.has("526293125879037952")){
